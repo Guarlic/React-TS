@@ -1,4 +1,7 @@
+h1, h2 {
+  font-family: Monaco;
+}
+
 h1 {
-  font-family: Lato;
   text-align: center;
 }
