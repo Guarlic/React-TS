@@ -9,8 +9,19 @@ export default function Buttons() {
       )}
     >test</button>
   );
+  
+  const Button2 = () => (
+    <button
+      onClick = { () => (
+        alert('This is Button2!!')
+      )}
+    >button2</button>
+  );
 
   return (
-    <Button1 />
+    <div>
+      <Button1 />
+      <Button2 />
+    </div>
   );
 }
