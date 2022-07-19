@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './style.css';
+import Buttons from './Buttons';
 
 export default function App() {
   const Title = () => (
@@ -14,17 +15,11 @@ export default function App() {
     </h2>
   );
 
-  const Button = () => (
-    <button
-      onClick={() => alert('test')}
-    >Button~!</button>
-  );
-
   return (
     <div>
       <Title />
       <SubTitle />
-      <Button />
+      <Buttons />
     </div>
   );
 }
