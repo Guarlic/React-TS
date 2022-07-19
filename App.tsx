@@ -3,6 +3,8 @@ import './style.css';
 import Buttons from './Buttons';
 import Images from './Images';
 
+export let count = 0;
+
 export default function App() {
   const Title = () => (
     <h1>

@@ -1,11 +1,14 @@
 import * as React from 'react';
 import './style.css';
+import { root } from './index';
+import { count } from './App';
 
 export default function Buttons() {
   const Button1 = () => (
     <button
       onClick = { () => (
-        alert('Hello!!')
+        count++,
+        alert(count)
       )}
     >test</button>
   );
