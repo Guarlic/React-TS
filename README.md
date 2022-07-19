@@ -1,3 +1,2 @@
-# react-ts-irxooi
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/react-ts-irxooi)
+# React-TS
+리액트 여언습
