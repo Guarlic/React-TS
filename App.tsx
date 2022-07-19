@@ -1,6 +1,7 @@
 import * as React from 'react';
 import './style.css';
 import Buttons from './Buttons';
+import Images from './Images';
 
 export default function App() {
   const Title = () => (
@@ -20,6 +21,7 @@ export default function App() {
       <Title />
       <SubTitle />
       <Buttons />
+      <Images />
     </div>
   );
 }
