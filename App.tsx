@@ -8,13 +8,13 @@ export let count = 0;
 export default function App() {
   const Title = () => (
     <h1>
-      Hello, World!
+      Sojak Studio
     </h1>
   );
 
   const SubTitle = () => (
     <h2>
-      React with TS!
+      Progaming Community!
     </h2>
   );
 
